@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chapter5 : MonoBehaviour
+public class KangDongYoon_EX1 : MonoBehaviour
 {
     void Start()
     {
