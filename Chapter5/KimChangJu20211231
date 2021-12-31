@@ -1,0 +1,27 @@
+void Start()
+    {
+
+
+        int a = 82;
+       
+        {
+            if (a >= 90 )
+            {
+                Debug.Log("A");
+            }
+            else if (a >= 80 )
+                {
+                    Debug.Log("B");
+                        }
+                else if (a >= 70)
+                    {
+                        Debug.Log("C");
+                    }
+                    else if (a <= 69)
+                            Debug.Log("F");
+                      
+                    }
+                
+            
+        }
+    }
