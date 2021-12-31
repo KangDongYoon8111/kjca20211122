@@ -8,7 +8,8 @@ public class ParkKiBeom20211231_EX1 : MonoBehaviour
     void Start()
     {
 
-        int a = 90;
+        tring userInput = "";
+        int a = int.Parse(userInput);
 
         if (a >= 90)
         {
