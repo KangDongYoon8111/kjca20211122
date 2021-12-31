@@ -9,7 +9,7 @@ public class BeakDaYoung_EX2 : MonoBehaviour
     {
         int a = 10;
 
-        Debug.Log(a >= 50 ? "50이상의 수" : "50미만의 ");
+        Debug.Log(a >= 50 ? "50이상의 수" : "50미만의 수");
     }
 
     // Update is called once per frame
