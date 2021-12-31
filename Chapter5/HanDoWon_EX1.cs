@@ -12,12 +12,12 @@ public class HanDoWon_EX1 : MonoBehaviour
         int number = int.Parse(userinput);
         if (number >= 70)
         {
-            if(number>90)
+            if(number>=90)
             {
                 Debug.Log("A");
             }
 
-            else if (number > 80)
+            else if (number >= 80)
             {
                 Debug.Log("B");
             }
