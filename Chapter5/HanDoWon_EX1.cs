@@ -7,26 +7,23 @@ public class HanDoWon_EX1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string userinput = "50";
+       int a = 69;
 
-        int number = int.Parse(userinput);
-        if (number >= 70)
+        if (a >= 90)
         {
-            if(number>=90)
-            {
-                Debug.Log("A");
-            }
-
-            else if (number >= 80)
-            {
-                Debug.Log("B");
-            }
-
-            else
-            {
-                Debug.Log("C");
-            }
+            Debug.Log("A");
         }
+
+        else if (a >= 80)
+        {
+            Debug.Log("B");
+        }
+
+        else if (a >= 70)
+        {
+            Debug.Log("C");
+        }
+
         else
         {
             Debug.Log("F");
