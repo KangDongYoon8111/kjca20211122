@@ -1,0 +1,25 @@
+nt i = 69;
+
+        if (i >= 90)
+        {
+            Debug.Log("A");
+
+        }
+        else if (i >= 80)
+        {
+            Debug.Log("B");
+
+        }
+        else if (i >= 70)
+        {
+            Debug.Log("C");
+
+
+        }
+        else
+        {
+            if (i<=69)
+            {
+                Debug.Log("F");
+            }
+        }
