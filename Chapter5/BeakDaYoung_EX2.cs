@@ -9,7 +9,7 @@ public class BeakDaYoung_EX2 : MonoBehaviour
     {
         int a = 10;
 
-        Debug.Log(a >= 50 ? "50ÀÌ»óÀÇ ¼ö" : "50¹Ì¸¸ÀÇ ¼ö");
+        Debug.Log(a >= 50 ? "50ì´ìƒì˜ ìˆ˜" : "50ë¯¸ë§Œì˜ ");
     }
 
     // Update is called once per frame
