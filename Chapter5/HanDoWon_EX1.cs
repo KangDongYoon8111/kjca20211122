@@ -29,7 +29,7 @@ public class HanDoWon_EX1 : MonoBehaviour
         }
         else
         {
-            Debug.Log("D");
+            Debug.Log("F");
         }
     }
 
