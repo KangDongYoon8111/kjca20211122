@@ -8,9 +8,12 @@ public class BeakDaYoung_EX6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        string a = "1";
+        string b = "2";
         string c = "+";
-        int a = 1;
-        int b = 2;
+        
+        int d = int.Parse(a);
+        int e = int.Parse(b);
 
         switch (c)
         {
