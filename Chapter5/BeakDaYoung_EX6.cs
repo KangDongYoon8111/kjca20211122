@@ -18,19 +18,19 @@ public class BeakDaYoung_EX6 : MonoBehaviour
         switch (c)
         {
             case "+":
-                Debug.Log(a + b);
+                Debug.Log(d + e);
                 break;
             case "-":
-                Debug.Log(a - b);
+                Debug.Log(d - e);
                 break;
             case "*":
-                Debug.Log(a * b);
+                Debug.Log(d * e);
                 break;
             case "/":
-                Debug.Log(a / b);
+                Debug.Log(d / e);
                 break;
             case "%":
-                Debug.Log(a % b);
+                Debug.Log(d % e);
                 break;
 
         }
