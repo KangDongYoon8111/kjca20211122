@@ -1,0 +1,34 @@
+{
+        string userinput1 = "100";
+        string userinput2 = "10";
+        string value = "%"; // +,-,*,/,%
+
+        int a = int.Parse(userinput1);
+        int b = int.Parse(userinput2);
+        int outPut = 0;
+
+            switch(value)
+        {
+            case "+":
+                outPut = a + b;
+                break;
+            case "-":
+                outPut = a - b;
+                break;
+            case "*":
+                outPut = a * b;
+                break;
+            case "/":
+                outPut = a / b;
+                break;
+            case "%":
+                outPut = a % b;
+                break;
+
+            default:
+                Debug.Log("저는 +,-,*,/,%만 연산가능");
+                break;
+                }
+        Debug.Log(outPut);
+
+    }
