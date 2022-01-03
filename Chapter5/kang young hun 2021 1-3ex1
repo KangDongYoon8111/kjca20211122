@@ -1,0 +1,26 @@
+    string userinput = "80";
+
+        int number = int.Parse(userinput);
+        
+        {
+            if (number >= 90)
+            {
+                Debug.Log("A");
+
+            }
+            else if (number >= 80)
+            {
+                Debug.Log("b");
+            }
+
+            else if (number >= 70)
+            {
+                Debug.Log("c");
+            }
+
+
+
+            else
+            {
+                Debug.Log("F");
+            }
