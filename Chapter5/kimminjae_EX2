@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KimGwiJong_Ex2 : MonoBehaviour
+public class kimminjae_ex2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
