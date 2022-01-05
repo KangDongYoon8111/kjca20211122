@@ -1,0 +1,13 @@
+{
+        string userinput = "77";
+
+        int number = int.Parse(userinput);
+        if(number%3==0)
+        {
+            Debug.Log("3의배수");
+        }
+        else 
+        {
+            Debug.Log("3의 배수가 아님");
+        }
+    }
