@@ -1,0 +1,32 @@
+public class OhSeungJU_EX5 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        string a = "60";
+        string b = "50";
+        string c = "101";
+        string d = "80";
+        int num1 = int.Parse(a);
+        int num2 = int.Parse(b);
+        int num3 = int.Parse(c);
+        int num4 = int.Parse(d);
+
+        if (num1 >= 60 && num1 <= 100)
+            Debug.Log("1학년 합격");
+        else if (num1 < 0 || num1 > 100)
+            Debug.Log("입력값 오류");
+        if (num2 >= 60 && num2 <= 100)
+            Debug.Log("2학년 합격");
+        else if (num2 < 0 || num2 > 100)
+            Debug.Log("입력값 오류");
+        if (num3 >= 60 && num3 <= 100)
+            Debug.Log("3학년 합격");
+        else if (num3 < 0 || num3 > 100)
+            Debug.Log("입력값 오류");
+        if (num4 >= 70 && num4 <= 100)
+            Debug.Log("4학년 합격");
+        else if (num4 < 0 || num4 > 100)
+            Debug.Log("입력값 오류");
+    }
+}
