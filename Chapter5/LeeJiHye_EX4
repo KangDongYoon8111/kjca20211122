@@ -8,10 +8,10 @@ public class LeeJiHye2022010504 : MonoBehaviour
     void Start()
     {
         // Start is called before the first frame update
-        //»ç¿ëÀÚ·ÎºÎÅÍ ¼¼ °³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ, 
-        //±× ¼öµéÀÇ ÃÖ´ë°ª°ú ÃÖ¼Ò°ª,
-        //ÇÕ°è¿Í Æò±ÕÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À»
-        //¸¸µé¾îÁÖ¼¼¿ä.
+        //ì‚¬ìš©ìë¡œë¶€í„° ì„¸ ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„, 
+        //ê·¸ ìˆ˜ë“¤ì˜ ìµœëŒ€ê°’ê³¼ ìµœì†Œê°’,
+        //í•©ê³„ì™€ í‰ê· ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì„
+        //ë§Œë“¤ì–´ì£¼ì„¸ìš”.
 
         string Userinput1 = "100";
         string Userinput2 = "70";
@@ -50,7 +50,7 @@ public class LeeJiHye2022010504 : MonoBehaviour
             {
                 max = c;
             }
-            Debug.Log($"Å«¼ö: {max}");
+            Debug.Log($"ìµœëŒ€ê°’: {max}");
         }
         void Min(int a, int b, int c)
         {
@@ -68,18 +68,18 @@ public class LeeJiHye2022010504 : MonoBehaviour
             {
                 min = c;
             }
-            Debug.Log($"ÀÛÀº¼ö: {min}");
+            Debug.Log($"ìµœì†Œê°’: {min}");
         }
         void Sum(int a, int b, int c)
         {
             sum = a + b + c;
-            Debug.Log($"ÇÕ°è: {sum}");
+            Debug.Log($"í•©ê³„: {sum}");
         }
 
         void Average(int a, int b, int c)
         {
             average = (a + b + c) / 3;
-            Debug.Log($"Æò±Õ: {average}");
+            Debug.Log($"í‰ê· : {average}");
         }
     }
 
