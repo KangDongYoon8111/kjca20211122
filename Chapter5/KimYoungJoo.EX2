@@ -1,0 +1,15 @@
+{
+    string input = "-10";
+    void Start()
+    {
+        int a = int.Parse(input);
+        if(a>=50)
+        {
+            Debug.Log("50이상의 수입니다.");
+        }
+        else
+        {
+            Debug.Log("50미만의 수입니다.");
+        }
+    }
+}
