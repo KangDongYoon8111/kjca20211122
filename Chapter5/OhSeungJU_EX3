@@ -1,0 +1,20 @@
+public class OhSeungJU_EX3 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        int c = 3;
+
+        if (c % 3 == 0)
+        {
+            Debug.Log("3의 배수입니다.");
+        }
+        else
+        {
+            Debug.Log("3의 배수가 아닙니다.");
+        }
+        
+    }
+
+   
+}
