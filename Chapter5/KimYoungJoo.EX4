@@ -1,0 +1,23 @@
+{
+     public string a1="1";
+     public string b1="2";
+     public string c1="3";
+ 
+    void Start()
+    {
+         int a = int.Parse(a1);
+         int b = int.Parse(b1);
+         int c = int.Parse(c1);
+         int d= Mathf.Max(a, b, c);
+         Debug.Log(d);
+         int f = Mathf.Min(a, b, c);
+         Debug.Log(f);
+
+         int cal = a + b + c;
+         int sum = a + b + c / 3;
+         Debug.Log(cal);
+         Debug.Log(sum);
+
+    }
+
+}
