@@ -1,0 +1,61 @@
+{
+    public string a="7";  //입력값 
+    void Start()
+    {
+        int c = int.Parse(a);
+        switch (c) { 
+
+            case 1:
+                print("몇월이 궁금하세요?" + c);
+            print("1월은 : 31일 까지 있습니다.");
+                break;
+            case 2:
+                print("몇월이 궁금하세요?" + c);
+                print("2월은 : 28일 까지 있습니다.");
+                break;
+            case 3:
+                print("몇월이 궁금하세요?" + c);
+                print("3월은 : 31일 까지 있습니다.");
+                break;
+            case 4:
+                print("몇월이 궁금하세요?" + c);
+                print("4월은 : 30일 까지 있습니다.");
+                break;
+            case 5:
+                print("몇월이 궁금하세요?" + c);
+                print("5월은 : 31일 까지 있습니다.");
+                break;
+            case 6:
+                print("몇월이 궁금하세요?" + c);
+                print("6월은 : 30일 까지 있습니다.");
+                break;
+            case 7:
+                print("몇월이 궁금하세요?" + c);
+                print("7월은 : 31일 까지 있습니다.");
+                break;
+            case 8:
+                print("몇월이 궁금하세요?" + c);
+                print("8월은 : 31일 까지 있습니다.");
+                break;
+            case 9:
+                print("몇월이 궁금하세요?" + c);
+                print("9월은 : 30일 까지 있습니다.");
+                break;
+            case 10:
+                print("몇월이 궁금하세요?" + c);
+                print("10월은 : 31일 까지 있습니다.");
+                break;
+            case 11:
+                print("몇월이 궁금하세요?" + c);
+                print("11월은 : 30일 까지 있습니다.");
+                break;
+            case 12:
+                print("몇월이 궁금하세요?" + c);
+                print("12월은 : 31일 까지 있습니다.");
+                break;
+        }
+            
+    }
+    
+
+}
