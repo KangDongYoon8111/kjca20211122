@@ -1,0 +1,19 @@
+public class Chapter5 : MonoBehaviour
+{
+    public InputField inputField;
+    
+    public void Ex1()
+    {
+        int number = int.Parse(inputField.text);
+
+        if (number >= 90)
+        {
+            Debug.Log("A");
+        }
+        else if (number >= 80)
+            Debug.Log("B");
+        else if (number >= 70)
+            Debug.Log("C");
+        else 
+            Debug.Log("F");
+    }
