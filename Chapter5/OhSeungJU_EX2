@@ -1,0 +1,22 @@
+public class OhSeungJU_EX2 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        int b = 49;
+        if (b >= 50)
+        {
+            Debug.Log("이상");
+        }
+        else if (b <= 49)
+        {
+            Debug.Log("이하");
+        }
+
+
+    }
+
+
+
+
+}
