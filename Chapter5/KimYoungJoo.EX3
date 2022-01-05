@@ -1,0 +1,18 @@
+{
+    public string input = "6";
+    
+   
+    void Start()
+    {
+        int x = int.Parse(input);
+        if (x%3==0 && x!=0)
+        {
+            Debug.Log("3의 배수 입니다");
+        }
+        else
+        {
+            Debug.Log("3의 배수가 아닙니다");
+        }
+    }
+
+}
