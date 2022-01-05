@@ -1,0 +1,47 @@
+{
+     public string month;  //입력값
+    void Start()
+    {
+        switch (month)
+        {
+            case "1":
+                print("겨울");
+                break;
+            case "2":
+                print("겨울");
+                break;
+            case "3월":
+                print("봄");
+                break;
+            case "4월":
+                print("봄");
+                break;
+            case "5월":
+                print("봄");
+                break;
+            case "6월":
+                print("여름");
+                break;
+            case "7":
+                print("여름");
+                break;
+            case "8":
+                print("여름");
+                break;
+            case "9":
+                print("가을");
+                break;
+            case "10":
+                print("가을");
+                break;
+            case "11":
+                print("가을");
+                break;
+            case "12":
+                print("겨울");
+                break;
+
+        }
+    }
+ 
+}
