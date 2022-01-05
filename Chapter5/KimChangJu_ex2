@@ -1,0 +1,13 @@
+ {
+        string userinput = "52";
+
+        int number = int.Parse(userinput);
+        if(number>=50)
+        {
+            Debug.Log("50이상");
+        }
+        else if(number<50)
+        {
+            Debug.Log("50이하");
+        }
+    }
