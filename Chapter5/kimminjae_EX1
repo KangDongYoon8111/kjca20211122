@@ -1,4 +1,4 @@
-public class kimminjae_ex2_EX1 Chapter5 : MonoBehaviour
+public class kimminjae_EX1 : MonoBehaviour
 {
     public InputField inputField;
     
