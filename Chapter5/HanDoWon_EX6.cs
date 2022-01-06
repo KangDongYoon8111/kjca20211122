@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HanDoWon_Ex6 : MonoBehaviour
+public class HanDoWon_EX6 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
