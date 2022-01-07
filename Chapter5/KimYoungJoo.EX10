@@ -1,0 +1,17 @@
+    void Start()
+    {
+  
+        for (int i = 0; i < 5; i++)
+        {
+            string star = "";
+            for (int j = 0; j < i+1; j++)
+            {
+                star += "★";
+            }
+            for (int k = 0; k < 4-i; k++)
+            {
+                star += "☆";
+            }
+            Debug.Log(star);
+        }  
+    }
