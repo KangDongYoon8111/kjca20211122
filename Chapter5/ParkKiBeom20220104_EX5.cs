@@ -7,30 +7,28 @@ public class ParkKiBeom20220104_EX5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string userInput1 = "4ÇĞ³â";
-        string userInput2 = "4ÇĞ³â ÀÌ¿ÜÀÇ ÇĞ³â";
+        string userInput1 = "4í•™ë…„";
+        string userInput2 = "4í•™ë…„ ì´ì™¸ì˜ í•™ë…„";
         string userInput3 = "72";
-        string grade = "4ÇĞ³â";
+        string grade = "4í•™ë…„";
         int a = int.Parse(userInput3);
 
         if (grade == userInput1)
         {
             if (70 <= a && a <= 100 && 0 < a)
-                Debug.Log(grade + "ÀÌ¸ç" + a + "Á¡À¸·Î 70Á¡ ÀÌ»óÀÌ¹Ç·Î ÇÕ°İ!");
-
-
+                Debug.Log(grade + "ì´ë©°" + a + "ì ìœ¼ë¡œ 70ì  ì´ìƒì´ë¯€ë¡œ í•©ê²©!");
             else if (grade == userInput2)
             {
                 if (60 <= a && a <= 100 && 0 < a)
-                    Debug.Log(grade + "ÀÌ¸ç" + a + "Á¡À¸·Î 60Á¡ ÀÌ»óÀÌ¹Ç·Î ÇÕ°İ!");
+                    Debug.Log(grade + "ì´ë©°" + a + "ì ìœ¼ë¡œ 60ì  ì´ìƒì´ë¯€ë¡œ í•©ê²©!");
             }
             else if (0 > a)
             {
-                Debug.Log("*°æ°í : 0Á¡ ¹Ì¸¸ÀÔ´Ï´Ù.");
+                Debug.Log("*ê²½ê³  : 0ì  ë¯¸ë§Œì…ë‹ˆë‹¤.");
             }
             else if (100 < a)
             {
-                Debug.Log("*°æ°í : 100Á¡À» ÃÊ°ú ÇÏ¿´½À´Ï´Ù.");
+                Debug.Log("*ê²½ê³  : 100ì ì„ ì´ˆê³¼ í•˜ì˜€ìŠµë‹ˆë‹¤.");
             }
         }
     }
