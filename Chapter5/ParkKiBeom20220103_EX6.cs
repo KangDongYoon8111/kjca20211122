@@ -34,7 +34,7 @@ public class ParkKiBeom20220103_EX6 : MonoBehaviour
                 output = a % b;
                 break;
             default:
-                Debug.Log("(+,-,*,/,%)¸¸ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.");
+                Debug.Log("(+,-,*,/,%)ë§Œ ì‚¬ìš©í•  .");
                 break;
 
         }
