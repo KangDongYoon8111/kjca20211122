@@ -34,7 +34,7 @@ public class ParkKiBeom20220103_EX6 : MonoBehaviour
                 output = a % b;
                 break;
             default:
-                Debug.Log("(+,-,*,/,%)만 사용할 .");
+                Debug.Log("(+,-,*,/,%)사용할 수 있습니다.");
                 break;
 
         }
