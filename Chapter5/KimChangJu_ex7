@@ -1,0 +1,44 @@
+ void Start()
+    {
+        string userinput = "12";
+        int month = int.Parse(userinput);
+        switch(month)
+        {
+            case 1:
+                Debug.Log($"{month}월은 31일");
+                break;
+            case 2:
+                Debug.Log($"{month}월은 28&&29일");
+                break;
+            case 3:
+                Debug.Log($"{month}월은 31일");
+                break;
+            case 4:
+                Debug.Log($"{month}월은 30일");
+                break;
+            case 5:
+                Debug.Log($"{month}월은 31일");
+                break;
+            case 6:
+                Debug.Log($"{month}월은 30일");
+                break;
+            case 7:
+                Debug.Log($"{month}월은 31일");
+                break;
+            case 8:
+                Debug.Log($"{month}월은 31일");
+                break;
+            case 9:
+                Debug.Log($"{month}월은 30일");
+                break;
+            case 10:
+                Debug.Log($"{month}월은 31일");
+                break;
+            case 11:
+                Debug.Log($"{month}월은 30일");
+                break;
+            case 12:
+                Debug.Log($"{month}월은 31일");
+                break;
+        }
+    }
