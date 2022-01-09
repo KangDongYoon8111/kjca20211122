@@ -13,11 +13,11 @@ public class ParkKiBeom20211231_EX3 : MonoBehaviour
         if ((a % 3) == 0)
             
         {
-            Debug.Log("3ÀÇ ¹è¼ö°¡ ¸Â½À´Ï´Ù.");
+            Debug.Log("3ì˜ ë°°ìˆ˜ê°€ ë§ìŠµë‹ˆë‹¤.");
         }
         else
         {
-            Debug.Log("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+            Debug.Log("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
         }
     }
 
