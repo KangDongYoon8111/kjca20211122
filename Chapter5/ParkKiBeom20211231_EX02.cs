@@ -11,11 +11,11 @@ public class ParkKiBeom20211231_EX2 : MonoBehaviour
         int a = int.Parse(userInput);
         if (a >= 50)
         {
-            Debug.Log("50 �̻��� ���Դϴ�.");
+            Debug.Log("50 이상의 수입니다.");
         }
         else
         {
-            Debug.Log("50 �̸��� ���Դϴ�.");
+            Debug.Log("50 미만의 수입니다.");
         }
     }
 
