@@ -16,10 +16,10 @@ public class ParkKiBeom20211231_EX4 : MonoBehaviour
         int b = int.Parse(userInput2);
         int c = int.Parse(userInput3);
 
-        Debug.Log("ÃÖ´ë°ª : " + Mathf.Max(a, b, c));
-        Debug.Log("ÃÖ¼Ò°ª : " + Mathf.Min(a, b, c));
-        Debug.Log("ÇÕ°è : " + (a + b + c));
-        Debug.Log("Æò±Õ : " + (a+b+c/3));
+        Debug.Log("최대값 : " + Mathf.Max(a, b, c));
+        Debug.Log("최소값 : " + Mathf.Min(a, b, c));
+        Debug.Log("합계 : " + (a + b + c));
+        Debug.Log("평균 : " + (a+b+c/3));
     }
     // Update is called once per frame
     void Update()
