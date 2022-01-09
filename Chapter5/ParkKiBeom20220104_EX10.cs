@@ -16,12 +16,12 @@ public class ParkKiBeom20220104_EX10 : MonoBehaviour
 
             for(int j = 0; j <= i; j++)
             {
-                star += "¡Ú";
+                star += "â˜…";
             }
 
             for(int k = 0 + i; k < 4; k++)
             {
-                star += "¡Ù";
+                star += "â˜†";
             }
 
             Debug.Log(star);
