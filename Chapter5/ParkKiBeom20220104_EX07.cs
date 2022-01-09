@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParkKiBeom20220104_EX7 : MonoBehaviour
+public class ParkKiBeom20220104_EX07 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,45 +11,45 @@ public class ParkKiBeom20220104_EX7 : MonoBehaviour
         string userInput = "7";
         int month = int.Parse(userInput);
 
-        Debug.Log("¸î¿ùÀÌ ±Ã±İÇÏ¼¼¿ä? :"+month);
+        Debug.Log("ëª‡ì›”ì´ ê¶ê¸ˆí•˜ì„¸ìš”? :"+month);
 
         switch (month)
         {
             case 1:
-                Debug.Log("1¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("1ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 2:
-                Debug.Log("2¿ùÀº : 28ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("2ì›”ì€ : 28ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 3:
-                Debug.Log("3¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("3ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 4:
-                Debug.Log("4¿ùÀº : 30ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("4ì›”ì€ : 30ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 5:
-                Debug.Log("5¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("5ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 6:
-                Debug.Log("6¿ùÀº : 30ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("6ì›”ì€ : 30ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 7:
-                Debug.Log("7¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("7ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 8:
-                Debug.Log("8¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("8ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 9:
-                Debug.Log("9¿ùÀº : 30ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("9ì›”ì€ : 30ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 10:
-                Debug.Log("10¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("10ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 11:
-                Debug.Log("11¿ùÀº : 30ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("11ì›”ì€ : 30ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
             case 12:
-                Debug.Log("12¿ùÀº : 31ÀÏ±îÁö ÀÖ½À´Ï´Ù.");
+                Debug.Log("12ì›”ì€ : 31ì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.");
                 break;
         }
     }
