@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParkKiBeom20220104_EX9 : MonoBehaviour
+public class ParkKiBeom20220104_EX09 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class ParkKiBeom20220104_EX9 : MonoBehaviour
             
             
         }
-        Debug.Log("1~10Áß 3À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê´Â ¼öÀÇ ÇÕ : " +sum);
+        Debug.Log("1~10ì¤‘ 3ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠëŠ” ìˆ˜ì˜ í•© : " +sum);
 
     }
 
