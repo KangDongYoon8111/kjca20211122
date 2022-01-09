@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParkKiBeom20220103_EX6 : MonoBehaviour
+public class ParkKiBeom20220103_EX06 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
