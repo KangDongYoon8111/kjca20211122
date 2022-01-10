@@ -1,0 +1,22 @@
+void Start()
+    {
+        int a = 5;
+        int b = 4;
+        Debug.Log($"{a}+{b}={Plus(a, b)}");
+        float x = 3.4f;
+        float y = 4.1f;
+
+        Debug.Log($"{x}+{y}={Plus(x, y)}");
+
+        
+    }
+    public int Plus(int a, int b)
+    {
+        int sum = a + b;
+        return sum;
+    }
+    public float Plus(float x, float y)
+    {
+        float sum = x + y;
+        return sum;
+    }
