@@ -5,10 +5,10 @@ using UnityEngine;
 public class KanaGeonU20211231_EX4 : MonoBehaviour
 {
     /*
-    ╩Г©Кюз╥н╨нем ╪╪ ╟Ёюг а╓╪Ж╦╕ ют╥б╧ч╬ф, 
-╠в ╪Ж╣Июг цж╢К╟╙╟З цж╪р╟╙,
-гу╟Х©м фР╠ую╩ ╠╦го╢б га╥н╠в╥╔ю╩
-╦╦╣И╬Наж╪╪©Д.
+    Л┌╛Л ╘Л·░К║°К╤─М└╟ Л└╦ Й╟°Л²≤ Л═∙Л┬≤К╔╪ Л·┘К═╔К╟⌡Л∙└, 
+Й╥╦ Л┬≤К⌠╓Л²≤ Л╣°К▄─Й╟▓ЙЁ╪ Л╣°Л├▄Й╟▓,
+М∙╘ЙЁ└Л≥─ М▐┴Й╥═Л²└ Й╣╛М∙≤К┼■ М■└К║°Й╥╦К·╗Л²└
+К╖▄К⌠╓Л√╢Лё╪Л└╦Л ■.
     */
     void Start()
     {
@@ -32,7 +32,7 @@ public class KanaGeonU20211231_EX4 : MonoBehaviour
         {
             max = c;
         }
-        Debug.Log($"цж╢К╟╙:{max}");
+        Debug.Log($"Л╣°К▄─Й╟▓:{max}");
 
         if (a < b)
         {
@@ -48,9 +48,9 @@ public class KanaGeonU20211231_EX4 : MonoBehaviour
         {
             min = c;
         }
-        Debug.Log($"цж╪р╟╙:{min}");
-        Debug.Log($"гу╟Х:{a+b+c}");
-        Debug.Log($"фР╠у:{(a + b + c)/3}");
+        Debug.Log($"Л╣°Л├▄Й╟▓:{min}");
+        Debug.Log($"М∙╘ЙЁ└:{a+b+c}");
+        Debug.Log($"М▐┴Й╥═:{(a + b + c)/3}");
     }
 
 
