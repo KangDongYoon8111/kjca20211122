@@ -1,4 +1,4 @@
-  public string userInput1 = "3";
+    public string userInput1 = "3";
     public string userInput2 = "34.2";
     void Start()
     {
@@ -13,9 +13,9 @@
         return number;
   
     }
-    int Square2()
+    float Square2()
     {
-        int number2 = int.Parse(userInput2);
+        float number2 = float.Parse(userInput2);
         number2 *= number2;
         return number2;
     }
