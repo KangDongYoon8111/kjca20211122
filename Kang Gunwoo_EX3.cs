@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class KanaGeonU20211231_EX3 : MonoBehaviour
 {
-//    Á¤¼ö ÇÑ °³¸¦ ÀÔ·Â¹Ş¾Æ¼­,
-//±× ¼ö°¡ 3ÀÇ ¹è¼öÀÎÁö
-//ÆÇ´ÜÇÏ´Â ÇÁ·Î±×·¥À»
-//¸¸µé¾îÁÖ¼¼¿ä.
+//    ì •ìˆ˜ í•œ ê°œë¥¼ ì…ë ¥ë°›ì•„ì„œ,
+//ê·¸ ìˆ˜ê°€ 3ì˜ ë°°ìˆ˜ì¸ì§€
+//íŒë‹¨í•˜ëŠ” í”„ë¡œê·¸ë¨ì„
+//ë§Œë“¤ì–´ì£¼ì„¸ìš”.
     // Start is called before the first frame update
     void Start()
     {
         int a = 10;
         if(a%3 == 0)
         {
-            Debug.Log("3ÀÇ ¹è¼ö");
+            Debug.Log("3ì˜ ë°°ìˆ˜");
         }
         else
         {
-            Debug.Log("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù");
+            Debug.Log("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤");
         }
     }
 
