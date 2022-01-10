@@ -1,0 +1,7 @@
+int a = 25;
+
+        if (a >= 50)
+            Debug.Log("50이상");
+
+        else
+            Debug.Log("50이하");
