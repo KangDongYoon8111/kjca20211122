@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class KanaGeonU20211231_EX2 : MonoBehaviour
 {/*
-    Á¤¼ö ÇÑ °³¸¦ ÀÔ·Â¹Þ¾Æ¼­,
-    ±× ¼ö°¡ 50 ÀÌ»óÀÇ ¼öÀÎÁö 
-    50¹Ì¸¸ÀÇ ¼öÀÎÁö
-    ÆÇ´ÜÇÏ´Â ÇÁ·Î±×·¥À» ¸¸µé¾î ÁÖ¼¼¿ä.
+    ì •ìˆ˜ í•œ ê°œë¥¼ ìž…ë ¥ë°›ì•„ì„œ,
+    ê·¸ ìˆ˜ê°€ 50 ì´ìƒì˜ ìˆ˜ì¸ì§€ 
+    50ë¯¸ë§Œì˜ ìˆ˜ì¸ì§€
+    íŒë‹¨í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ë§Œë“¤ì–´ ì£¼ì„¸ìš”.
     */
     // Start is called before the first frame update
     void Start()
@@ -16,11 +16,11 @@ public class KanaGeonU20211231_EX2 : MonoBehaviour
 
         if (a >= 50)
         {
-            Debug.Log("50º¸´Ù Å©°Å³ª °°Àº ¼ö");
+            Debug.Log("50ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ì€ ìˆ˜");
         }
         else
         {
-            Debug.Log("50º¸´Ù ÀÛÀº ¼ö");
+            Debug.Log("50ë³´ë‹¤ ìž‘ì€ ìˆ˜");
         }
     }
 
