@@ -2,8 +2,8 @@
     public string userInput2 = "34.2";
     void Start()
     {
-        Debug.Log("결과:"+userInput1+"의 제곱값은"+Square()+"9입니다.");
-        Debug.Log("결과:"+userInput2+"의 제곱값은"+Square()+"9입니다.");
+        Debug.Log("결과:"+userInput1+"의 제곱값은"+Square()+"입니다.");
+        Debug.Log("결과:"+userInput2+"의 제곱값은"+Square()+"입니다.");
     }
 
     int Square()
