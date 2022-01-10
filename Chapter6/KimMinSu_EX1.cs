@@ -11,19 +11,18 @@ public class KimMinSu_EX1 : MonoBehaviour
         string userInput2 = "6";
         float a = float.Parse(userInput1);
         float b = float.Parse(userInput2);
-        Debug.Log("°á°ú :" + a+"ÀÇ Á¦°ö°ªÀº "+ Multiply1(a, a)+" ÀÔ´Ï´Ù");
-        Debug.Log("°á°ú :" + b + "ÀÇ Á¦°ö°ªÀº " + Multiply1(b, b) + " ÀÔ´Ï´Ù");
-
+        Debug.Log("ê²°ê³¼ :" + a+"ì˜ ì œê³±ê°’ì€ "+ Squared1(a, a)+" ì…ë‹ˆë‹¤");
+        Debug.Log("ê²°ê³¼ :" + b + "ì˜ ì œê³±ê°’ì€ " + Squared2(b, b) + " ì…ë‹ˆë‹¤");
     }
 
-    public static float Multiply1(float a, float b)
+    public static float Squared1(float a, float b)
     {
         
 
          float result1 = a * a;
         return result1;
     }
-    public static float Multiply2(float a, float b)
+    public static float Squared2(float a, float b)
     {
         
 
