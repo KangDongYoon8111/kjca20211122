@@ -18,16 +18,16 @@ public class LeeJiHye20220110 : MonoBehaviour
         {
             if (score >= 70 && score <= 100)
             {
-                Debug.Log("ÇÕ°Ý");
+                Debug.Log("í•©ê²©");
             }
             else if (score <= 69 && score >= 0)
             {
-                Debug.Log("ºÒÇÕ°Ý");
+                Debug.Log("ë¶ˆí•©ê²©");
             }
             else
 
             {
-                Debug.Log("°æ°í!");
+                Debug.Log("ê²½ê³ !");
             }
 
 
@@ -37,15 +37,15 @@ public class LeeJiHye20220110 : MonoBehaviour
         {
             if (score >= 60 && score <= 100)
             {
-                Debug.Log("ÇÕ°Ý");
+                Debug.Log("í•©ê²©");
             }
             else if (score <= 59 && score >= 0)
             {
-                Debug.Log("ºÒÇÕ°Ý");
+                Debug.Log("ë¶ˆí•©ê²©");
             }
             else
             {
-                Debug.Log("°æ°í!");
+                Debug.Log("ê²½ê³ !");
             }
 
         }
