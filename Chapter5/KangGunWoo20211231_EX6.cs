@@ -33,7 +33,7 @@ public class KanaGeonU20211231_EX6 : MonoBehaviour
                 Debug.Log(a % b);
                 break;
             default:
-                Debug.Log("´Ù½Ã ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
+                Debug.Log("Â´Ã™Â½Ãƒ Ã€Ã”Â·Ã‚Ã‡Ã˜ ÃÃ–Â¼Â¼Â¿Ã¤");
                 break;
         }
     }
