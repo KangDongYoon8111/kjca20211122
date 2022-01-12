@@ -29,8 +29,8 @@ public class ParkKiBeom20220105_HomeWork_EX1 : MonoBehaviour
                 min = score[a];
             }
         }
-                Debug.Log("ÃÖ´ëÁ¡¼ö : "+max+"Á¡");
-                Debug.Log("ÃÖ¼ÒÁ¡¼ö : "+min+"Á¡");
+                Debug.Log("ìµœëŒ€ì ìˆ˜ : "+max+"ì ");
+                Debug.Log("ìµœì†Œì ìˆ˜ : "+min+"ì ");
     }
 
     // Update is called once per frame
